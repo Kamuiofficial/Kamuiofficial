@@ -1,0 +1,24 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'serif';
+}
+
+.background {
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catchphrase {
+  writing-mode: vertical-rl;
+  font-size: 2rem;
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
