@@ -1,102 +1,32 @@
 body {
-    margin: 0;
-    font-family: 'Yuji Syuku', 'serif';
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
-
-.main-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0.5em 0;
+header {
+  text-align: center;
+  padding: 1em;
 }
-.main-nav li {
-    margin: 0 1em;
+.logo {
+  width: 150px;
 }
-.main-nav a {
-    text-decoration: none;
-    color: yellow;
-    font-weight: bold;
+nav a {
+  color: gold;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
-
-.hero-header {
-    position: relative;
-    height: 100vh;
-    text-align: center;
-    padding-top: 2em;
-}
-
-.catchcopy {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    color: gold;
-}
-
-.tanka {
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.product-detail {
-    max-width: 600px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-.product-detail h1 {
-    font-size: 1.5rem;
+section {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1em;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
 }
 .product-image {
-    width: 100%;
-    height: auto;
-    margin: 1em 0;
-}
-.description {
-    line-height: 1.6;
-}
-.price {
-    font-weight: bold;
-}
-footer {
-    text-align: center;
-    padding: 2em;
-    font-size: 0.9rem;
-}
-@media screen and (max-width: 768px) {
-    .hero-header {
-        padding-top: 1em;
-        height: auto;
-    }
-
-    .catchcopy {
-        font-size: 1rem;
-    }
-
-    .tanka {
-        font-size: 0.8rem;
-        right: 0.5em;
-        bottom: 0.5em;
-    }
-
-    .product-detail {
-        margin: 1em;
-        padding: 1em;
-    }
-
-    .product-detail h1 {
-        font-size: 1.2rem;
-    }
-
-    .product-image {
-        width: 100%;
-    }
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }

@@ -1,16 +1,15 @@
 {
-    "name": "神舞-Kamui-公式アプリ",
-    "short_name": "神舞",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "background_color": "#000000",
-    "description": "昇り龍の如く、釣りの極みへ。神舞-Kamui-公式ECアプリ",
-    "icons": [
-        {
-            "src": "icon.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ],
-    "theme_color": "#000000"
+  "name": "神舞 -Kamui-",
+  "short_name": "神舞",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
